@@ -1,0 +1,64 @@
+<style>
+        body, input, select, textarea, button {
+        font-family: sans-serif;
+        font-size: 1em;
+        }   
+        .botao:hover {
+            background: rgb(79, 65, 212);
+            box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+            text-shadow: none;
+        }
+        .botao {
+            font-size: 1.5em;
+            background: rgb(31, 5, 126);
+            border: 0;
+            margin-bottom: 1em;
+            color: #FFF;
+            padding: 0.2em 0.6em;
+            box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+            text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+        }
+        .enun label {
+            color: rgb(31, 5, 126);
+            display: inline-block;
+            margin-right: 1em;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder
+        }
+        legend{
+            color: rgb(31, 5, 126);
+            
+
+        }
+        fieldset{
+            border-color: rgb(31, 5, 126);
+            border: 3px solid rgb(31, 5, 126);
+        }
+        .imagem label {
+            margin-bottom: 0.2em;
+            color: rgb(79, 65, 212);
+            display: block;
+        }
+        .imagem2 label {
+            margin-bottom: 0.2em;
+            color: rgb(79, 65, 212);
+            display: block;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            
+        }
+        .imagem2 input[type="text"],
+        .imagem2 textarea{
+            padding: 0.2em;
+            border: 1px solid #CCC;
+            box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+            display: block;
+
+        }
+        .botao, select {
+            cursor: pointer;
+        }
+        .imagem label{
+            cursor: pointer;
+        }
+    </style>

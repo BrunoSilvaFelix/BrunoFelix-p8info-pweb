@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSSfinal.css">
+    <title>Quiz</title>
+</head>
+<body>
+    <form action="script.php" method="post">
+    <fieldset class="enun" style="text-align: center;" >
+        <label>DE ACORDO COM AS IMAGENS, MARQUE A LINGUAGEM DE PROGRAMAÇÃO USADA NELAS</label>
+    </fieldset>
+    <fieldset class="imagem">
+        <legend><b>Questão 01</b></legend>
+        <img src="https://olhardigital.com.br/wp-content/uploads/2019/12/20191202071400.jpg" width="960" height="540"><br>
+        <div>
+            <input type="radio" name="qst1"  value="Java">Java
+            <label></label>
+            <input type="radio" name="qst1"  value="Python">Python
+            <label></label>
+            <input type="radio" name="qst1"  value="C++">C++
+            <label></label>
+            <input type="radio" name="qst1"  value="JavaScript">JavaScript
+            <label></label>
+            <input type="radio" name="qst1"  value="PHP">PHP
+        </div>
+    </fieldset>
+    <br>
+    <fieldset class="imagem">
+        <legend><b>Questão 02</b></legend>
+        <img src="http://www.programabrasil.org/wp-content/uploads/2013/08/imagem4.png" width="960" height="540"><br>
+        <div>
+            <select name="qst2" id="qst2">
+                <option value="Java">Java</option>
+                <option value="Python">Python</option>
+                <option value="C++">C++</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="PHP">PHP</option>
+            </select>
+        </div>
+    </fieldset>
+    <br>
+    <fieldset class="imagem">
+        <legend><b>Questão 03</b></legend>
+        <img src="https://blogs.mulesoft.com/wp-content/uploads/code-1-1024x622.png" width="960" height="540"><br>
+        <div>
+            <input type="checkbox" name="qst3" id="qst3" value="Java">Java
+            <input type="checkbox" name="qst3" id="qst3" value="Python"> Python
+            <input type="checkbox" name="qst3" id="qst3" value="C++"> C++
+            <input type="checkbox" name="qst3" id="qst3" value="JavaScript">JavaScript 
+            <input type="checkbox" name="qst3" id="qst3" value="PHP">PHP
+        </div>
+    </fieldset>
+    <br>
+    <fieldset class='imagem2'>
+        <legend><b>Questão 04</b></legend>
+        <img src="https://ichi.pro/assets/images/max/724/1*B1gHEJ6_Bl58CXyP5nU7jQ.png" width="960" height="540"><br>
+        <div>
+            <label>Informe a linguagem de programação usada na imagem acima:</label>
+            <input type="text" name="qst4" id="qst4" style="width: 20em" value="JavaScript">
+        </div>
+    </fieldset>
+    <br>
+        <button class="botao submit" type="submit" name="submit" id="submit">Enviar</button>
+    </fieldset>
+    <br>
+
+</body>
+</html>
