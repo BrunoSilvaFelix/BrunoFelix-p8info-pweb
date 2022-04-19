@@ -1,4 +1,7 @@
 <html>
+<head>
+<link rel="stylesheet" href="estilo.css">
+</head>
 <body>
 
 <h2>Quiz</h2>
